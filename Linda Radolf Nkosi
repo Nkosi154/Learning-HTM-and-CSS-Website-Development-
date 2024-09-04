@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linda Nkosi Website</title>
+</head>
+
+<body>
+    
+    <header> 
+           <h1>Hi There!</h1>
+           <p>My name is <strong>Linda Nkosi</strong> Join me as I become a Website developer.</p>
+           <img src="C:\Users\User\Pictures\Camera Roll\DSC00122.JPG" alt="A picture of Linda Nkosi">
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <section id="about">
+              <h2>About</h2>
+              <p>Welcome to my website. I am a student at <strong>University of the Western Cape</strong> and I am learning how to become a website developer.<br>
+              I am excited to learn new things and I am looking forward to the journey ahead.</p>
+            </section id="skills">
+              <h2>Skills</h2>
+              <p>These are the skills that I have acquired so far:</p>
+              <li><em>HTML</em></li>
+              <li><em>CSS</em></li>
+              <li><em>JavaScript</em></li>
+              <li><em>Python</em></li>
+              <li><em>Java</em></li>
+        
+            <section id="contact">
+              <h2>Contact</h2>
+              <p>Feel free to contact me on the following platforms:</p>
+              <li>Email: LindaNkosi9763gmail.com</li>
+              <li>Instagram: @LindaNkosi</li>
+              <li>Contact No: +27797635902</li>
+        </div>
+        
+        <div>
+            <footer>
+              <p>Thank you for visiting my website. I hope you enjoyed it.</p>
+              <@copy; 2024 Linda Nkosi>
+            </footer>
+        </div>
+</body>
+<style>
+    header {
+        background-color: lightblue;
+        text-align: center;
+        padding: 0.5%;
+    }
+    nav {
+        background-color: lightblue;
+        text-align: left;
+        padding: 0.5%;
+        display: flex;
+        
+    }
+    section {
+        padding: 0.5%;
+    }
+    footer {
+        background-color: lightblue;
+        text-align: center;
+        padding: 0.5%;
+    }
+    @media(min-width: 600px){
+        img{
+            width: 25%;
+            height: 25%;
+        }
+
+        
+    }
+</style>
+</html>
